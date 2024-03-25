@@ -1,9 +1,10 @@
+import '../styles/Cart.css'
 function Cart() {
 	const produit1prix = 8
 	const produit2prix= 10
 	const produit3prix= 15
 	return (
-		<div>
+		<div className='my-cart'>
 			<h2>Votre Panier</h2>
 			<ul>
 				<li>Produit1 : {produit1prix}F.CFA</li>
